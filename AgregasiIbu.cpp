@@ -10,6 +10,10 @@ class ibu {
 public:
     string nama;
     vector<anak*> daftar_anak;
+
+    ibu(string pNama) :nama(pNama) {
+        
+    }
 }
 
 

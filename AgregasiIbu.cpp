@@ -2,7 +2,15 @@
 #define IBU_H
 #include <vector>
 
+#include <iostream>
+#include <string>
+using namespace std;
 
+class ibu {
+public:
+    string nama;
+    vector<anak*> daftar_anak;
+}
 
 
 
